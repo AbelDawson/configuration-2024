@@ -1,0 +1,3 @@
+timeout 300 'swaylock --image ~/Pictures/backgrounds/tokyo-street.jpg'
+timeout 360 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
+before-sleep 'swaylock -f'
